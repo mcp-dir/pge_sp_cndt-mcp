@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pge_sp_cndt-mcp",
+  "title": "Procuradoria Geral do Estado SP: Certidão Negativa de Débitos Tributários",
+  "description": "Procuradoria Geral do Estado SP: Clearance Certificate (Debts) Tributários, official-source lookup. ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pge_sp_cndt-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pge_sp_cndt"
+    }
+  ]
+}
